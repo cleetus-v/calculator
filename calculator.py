@@ -28,7 +28,7 @@ def main():
 
     while True:
         # Take input from the user
-        choice = input("\nEnter choice (1/2/3/4) or 'q' to quit: ")
+        choice = input("\nEnter choice (1/2/3/4/5) or 'q' to quit: ")
 
         # Check if the user wants to quit
         if choice.lower() == 'q':
@@ -36,7 +36,7 @@ def main():
             break
 
         # Check if the choice is one of the valid options
-        if choice in ('1', '2', '3', '4'):
+        if choice in ('1', '2', '3', '4','5'):
             try:
                 num1 = float(input("Enter first number: "))
                 num2 = float(input("Enter second number: "))
