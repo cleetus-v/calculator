@@ -23,6 +23,8 @@ def main():
     print("2. Subtract (-)")
     print("3. Multiply (*)")
     print("4. Divide (/)")
+    print("5. Precentage (%)")
+    
 
     while True:
         # Take input from the user
@@ -53,6 +55,8 @@ def main():
 
             elif choice == '4':
                 print(f"Result: {num1} / {num2} = {divide(num1, num2)}")
+            elif choice == '5':
+                print(f"Result: {num1} % {num2} = {divide(num1, num2)*100}")   
         else:
             print("Invalid Input. Please select a valid operation from the menu.")
 
